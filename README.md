@@ -45,6 +45,15 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## Docker 启动
+
+可以直接用 Docker 构建并启动：
+
+```bash
+docker build -t zhisaotong .
+docker run --rm -p 8501:8501 zhisaotong
+```
+
 首次启动时，项目会加载本地知识库并初始化向量存储。若知识文件较多，首次运行可能需要一些时间。
 
 ## 知识库与数据

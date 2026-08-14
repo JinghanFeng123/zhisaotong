@@ -1,0 +1,10 @@
+.git
+.idea
+.agents
+.venv
+__pycache__
+*.pyc
+logs
+chroma_db
+rag/chroma_db
+md5.text
